@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fa;
+  color: #333; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/*design för container*/
+.container {
+  background-color: #ffffff;
+  padding: 32px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+/*textstorlek och färg för rubrik*/
+h1 {
+  font-size: 29px;
+  margin-bottom: 16px;
+  color: #0056b3;
+}
+
+/*design för input*/
+input {
+  width: 80%;
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  font-size: 18px;
+  margin-bottom: 18px;
+}
+
+/*design för knappar*/
+button {
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  margin: 3px;
+  cursor: pointer;
+}
+
+/*färg när man håller muspekaren över knappen*/
+button:hover {
+  background-color: #0056b3;
+}
+
+
+.result__container {
+  margin-top: 3px;
+  text-align: left;
+}
+
+.result__container p {
+  font-size: 19px;
+}
+
+p {
+  margin: 10px;
+}
+
+/* design för felmeddelanden*/
+.error {
+  color: #ff4c4c;
+  margin-top: 16px;
+}
